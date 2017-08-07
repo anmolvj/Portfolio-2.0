@@ -1,0 +1,11 @@
+- title: Gauri Prajapat Portfolio
+  technologies: [html, css, javascript, ruby, jekyll, github-pages]
+  image: ./assets/project1.png
+  link: http://gauriprajapat.com/index.html
+  github: https://github.com/anmolvj/Gauri-Prajapat-Portfolio
+
+- title: GSAP TweenLite Animation
+  technologies: [html, css, javascript, jquery, TweenLite, gsap]
+  image: ./assets/gsap.gif
+  link: #
+  github: # 

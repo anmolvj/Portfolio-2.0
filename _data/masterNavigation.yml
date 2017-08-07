@@ -1,0 +1,11 @@
+- name: Me
+  icon: fa-user
+  href: "#aboutme_section"
+
+- name: Work
+  icon: fa-wrench
+  href: "#project_section"
+
+- name: Contact
+  icon: fa-envelope
+  href: "#masterFooter"

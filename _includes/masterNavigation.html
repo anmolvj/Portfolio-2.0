@@ -1,0 +1,14 @@
+<nav class="has-text-centered " style="padding: 10px ">
+  <ul style="display: inline-block">
+    <!-- inline-block li's with next line between them inherit a margin right due to their nature
+    Hence it was intentional to leave li's in same line as start and end of 'for' block -->
+    {% for item in site.data.masterNavigation%}<li class="nav_li" style="display: inline-block;">
+      <a style="color: grey; display: block; padding: 10px 2.3vw " class="subtitle is-5" href="{{item.href}}">
+        <span class="icon">
+          <i class="fa {{item.icon}}"></i>
+        </span>
+      </a>
+    </li>{% endfor %}
+
+  </ul>
+<nav>

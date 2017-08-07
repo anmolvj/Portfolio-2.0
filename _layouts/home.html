@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"> -->
+<link rel="stylesheet" href="/css/bulma.css">
+    <style media="screen">
+    .site {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      font-family: 'Rajdhani', sans-serif;
+      text-align: center;
+      width: 80vw;
+      margin: auto;
+      /*background-color: #f2f2f2;*/
+      }
+
+      .site-content {
+      flex: 1;
+      }
+      .inlineMaster li {
+        display: inline-block;
+      }
+      .float{
+        float: left;
+      }
+      .fa{
+          transition: all 0.6s ease;
+      }
+      .nav_li:hover .fa{
+          transform: scale(2)
+      }
+      #designer>* , #developer{
+        transition: all 0.3s ease;
+        /*font-size: 20px;*/
+
+      }
+      #developer:hover{
+        color: #00e600;
+      }
+      #dev_d{
+        color: #00e600;
+      }
+
+      /*#designer{color:#ff0066}*/
+      #designer #de{color:#ff0066}
+      #designer:hover #es{color:}
+      #designer:hover #si{color:#cccc00}
+      #designer:hover #ig{color:}
+      #designer:hover #gn{color:#66b3ff}
+      #designer:hover #ne{color:}
+      #designer:hover #er{color:#00e6b8}
+      #designer:hover   #r{color:}
+
+      .strike {
+              display: block;
+              text-align: center;
+              overflow: hidden;
+              white-space: nowrap;
+          }
+
+          .strike > span {
+              position: relative;
+              display: inline-block;
+          }
+          .strike > span:before,
+          .strike > span:after {
+              content: "";
+              position: absolute;
+              top: 50%;
+              width: 9999px;
+              height: 1px;
+              background: #DBDBDB;
+          }
+          .strike > span:before {
+              right: 100%;
+              margin-right: 15px;
+          }
+          .strike > span:after {
+              left: 100%;
+              margin-left: 15px;
+          }
+          .hover_highlight{
+            /*opacity: 0.5;*/
+            transition: all 0.3s ease;
+            padding: 7px;
+          }
+.hover_highlight:hover{
+  opacity:1;
+  cursor: pointer;
+  color: #008CBA;
+}
+  #what_div1,#what_div2,#what_div3,#what_div4{
+    transition: all 0.7s ease;
+    padding: 70px;
+  }
+.large_font{
+  font-size: 25px;
+}
+
+.active_what{
+  opacity: 1;
+  color: #008CBA;
+}
+
+what_div1_content{
+  transition: all 0.7s ease;
+}
+#spanit{
+  color: grey;
+}
+
+
+
+.container {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  margin: 10px;
+
+}
+
+.image {
+  display: block;
+   width: 100%;
+   height: 300px;
+
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 35%;
+}
+
+
+.text {
+  /*white-space: nowrap;*/
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#masterFooter{
+  min-height: 100px;
+}
+
+#project_section{
+
+}
+
+    </style>
+  </head>
+
+
+
+
+
+
+
+  <body class="site">
+
+    {% include masterHeader.html %}
+
+    {% include projects.html %}
+    <main class="site-content ">
+      {{content}}
+    </main>
+    {% include masterFooter.html %}
+
+
+    <script type="text/javascript">
+
+
+    $('.what1').addClass('active_what');
+    $('#spanit').text('Design Logo. Binge Watch Anime. Learn all thing javascript. Listen to audio books. Watch videos on Quantum Physics. Follow mens fashion trends.');
+
+      $('.what1').click(()=>{
+        $('#spanit').text('Design Logo. Binge Watch Anime. Learn all thing javascript. Listen to audio books. Watch videos on Quantum Physics. Follow mens fashion trends.');
+        $('.what2, .what3, .what4').removeClass('active_what');
+        $('.what1').addClass('active_what');
+      });
+
+      $('.what2').click(()=>{
+        $('#spanit').text('Not complete a movie when started. Carry a powerbank. Like tacobell.');
+        $('.what1, .what3, .what4').removeClass('active_what');
+        $('.what2').addClass('active_what');
+      });
+
+      $('.what3').click(()=>{
+        $('#spanit').text('A international Computer Science Graduate student in San Francisco Bay Area. ');
+        $('.what2, .what1, .what4').removeClass('active_what');
+        $('.what3').addClass('active_what');
+      });
+
+      $('.what4').click(()=>{
+        $('#spanit').text('A full time web developer job starting next summer. A Kawasaki Ninja 1000. Learn japanese to watch anime without subtitles.');
+        $('.what2, .what3, .what1').removeClass('active_what');
+        $('.what4').addClass('active_what');
+      });
+    </script>
+    <script type="text/javascript">
+
+    </script>
+  </body>
+</html>

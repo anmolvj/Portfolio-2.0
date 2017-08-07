@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"> -->
+<link rel="stylesheet" href="/css/bulma.css">
+    <style media="screen">
+    .site {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      font-family: 'Rajdhani', sans-serif;
+      text-align: center;
+      width: 80vw;
+      margin: auto;
+      /*background-color: #f2f2f2;*/
+      }
+
+      .site-content {
+      flex: 1;
+      }
+      .inlineMaster li {
+        display: inline-block;
+      }
+      .float{
+        float: left;
+      }
+      .fa{
+          transition: all 0.6s ease;
+      }
+      .nav_li:hover .fa{
+          transform: scale(2)
+      }
+      #designer>* , #developer{
+        transition: all 0.3s ease;
+        /*font-size: 20px;*/
+
+      }
+      #developer:hover{
+        color: #00e600;
+      }
+      #dev_d{
+        color: #00e600;
+      }
+
+      /*#designer{color:#ff0066}*/
+      #designer #de{color:#ff0066}
+      #designer:hover #es{color:}
+      #designer:hover #si{color:#cccc00}
+      #designer:hover #ig{color:}
+      #designer:hover #gn{color:#66b3ff}
+      #designer:hover #ne{color:}
+      #designer:hover #er{color:#00e6b8}
+      #designer:hover   #r{color:}
+
+      .strike {
+              display: block;
+              text-align: center;
+              overflow: hidden;
+              white-space: nowrap;
+          }
+
+          .strike > span {
+              position: relative;
+              display: inline-block;
+          }
+          .strike > span:before,
+          .strike > span:after {
+              content: "";
+              position: absolute;
+              top: 50%;
+              width: 9999px;
+              height: 1px;
+              background: #DBDBDB;
+          }
+          .strike > span:before {
+              right: 100%;
+              margin-right: 15px;
+          }
+          .strike > span:after {
+              left: 100%;
+              margin-left: 15px;
+          }
+          .hover_highlight{
+            /*opacity: 0.5;*/
+            transition: all 0.3s ease;
+            padding: 7px;
+          }
+.hover_highlight:hover{
+  opacity:1;
+  cursor: pointer;
+  color: #008CBA;
+}
+  #what_div1,#what_div2,#what_div3,#what_div4{
+    transition: all 0.7s ease;
+    padding: 70px;
+  }
+.large_font{
+  font-size: 25px;
+}
+
+.active_what{
+  opacity: 1;
+  color: #008CBA;
+}
+
+what_div1_content{
+  transition: all 0.7s ease;
+}
+#spanit{
+  color: grey;
+}
+
+
+
+.container {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  margin: 10px;
+
+}
+
+.image {
+  display: block;
+   width: 100%;
+   height: 300px;
+
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 35%;
+}
+
+
+.text {
+  /*white-space: nowrap;*/
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#masterFooter{
+  min-height: 100px;
+}
+
+#project_section{
+
+}
+
+    </style>
+  </head>
+
+
+
+
+
+
+
+  <body class="site">
+
+    
+  <header style="padding:10px">
+    <div style="text-align: center;">
+
+    <img src="./assets/Asset_11.png" height="70px" width="70px" />
+  <h4 style="font-size: 35px; font-weight:bold; cursor: default;">
+    Anmol Vijayvargiya
+  </h4>
+  <hr style="width: 150px; margin:auto"/>
+  <!-- <p class="subtitle is-6" style="font-family: 'Rajdhani', sans-serif;">{Developer}&#60;/Designer&#62;</p> -->
+  <p class="subtitle is-5" style="font-family: 'Rajdhani', sans-serif;cursor: default; ">
+
+    <span style="font-family: 'VT323', monospace;" id="developer"><span id="dev_d">D</span>eveloper</span>
+    <span class="icon">
+      <i class="fa fa-code"></i>
+    </span id="designer">
+    <span style="font-family: 'Patrick Hand SC', cursive;" id="designer"><span id="de">D</span><span id="es">e</span><span id="si">s</span><span id="ig">i</span><span id="gn">g</span><span id="ne">n</span><span id="er">e</span><span id="r">r</span>
+    </span>
+
+  </p>
+</div>
+
+    <nav class="has-text-centered " style="padding: 10px ">
+  <ul style="display: inline-block">
+    <!-- inline-block li's with next line between them inherit a margin right due to their nature
+    Hence it was intentional to leave li's in same line as start and end of 'for' block -->
+    <li class="nav_li" style="display: inline-block;">
+      <a style="color: grey; display: block; padding: 10px 2.3vw " class="subtitle is-5" href="#aboutme_section">
+        <span class="icon">
+          <i class="fa fa-user"></i>
+        </span>
+      </a>
+    </li><li class="nav_li" style="display: inline-block;">
+      <a style="color: grey; display: block; padding: 10px 2.3vw " class="subtitle is-5" href="#project_section">
+        <span class="icon">
+          <i class="fa fa-wrench"></i>
+        </span>
+      </a>
+    </li><li class="nav_li" style="display: inline-block;">
+      <a style="color: grey; display: block; padding: 10px 2.3vw " class="subtitle is-5" href="#masterFooter">
+        <span class="icon">
+          <i class="fa fa-envelope"></i>
+        </span>
+      </a>
+    </li>
+
+  </ul>
+<nav>
+
+  </header>
+  <hr  style="width:80vw; margin:auto;"/>
+
+
+    <br />
+<div><div style="padding:30px" class="">
+  <p class="title ">
+    
+    <span class="hover_highlight what3" style="font-weight:bold">Who I am. </span> <span class="hover_highlight what1" style="font-weight:bold;">What I do. </span><span class="hover_highlight what2" style="font-weight:bold">What I don’t. </span>  <span class="hover_highlight what4" style="font-weight:bold">What I want. </span>
+    
+  </p>
+
+  <div id="what_div1" style=" margin:auto; max-width:60%; min-height: 500px; ">
+    <span class="title" id="spanit"></span>
+  </div>
+
+<div>
+</div>
+<div id="project_section" class="title">PROJECTS<br/></div>
+<div id="project_container">
+<div class="container">
+    <a href=" http://gauriprajapat.com/index.html "><img src="./assets/project1.png" alt="Avatar" class="image" ></a>
+    <div class="overlay">
+      <div class="text">
+        <Strong style="font-size:20px; font-weight:bold">Gauri Prajapat Portfolio</Strong>
+        <br/>
+         html &nbsp; css &nbsp; javascript &nbsp; ruby &nbsp; jekyll &nbsp; github-pages &nbsp;
+        <br/>
+        <a style="color: black;"  href="https://github.com/anmolvj/Gauri-Prajapat-Portfolio">View Source</a>
+      </div>
+    </div>
+
+  </div><div class="container">
+    <a href=" "><img src="./assets/gsap.gif" alt="Avatar" class="image" ></a>
+    <div class="overlay">
+      <div class="text">
+        <Strong style="font-size:20px; font-weight:bold">GSAP TweenLite Animation</Strong>
+        <br/>
+         html &nbsp; css &nbsp; javascript &nbsp; jquery &nbsp; TweenLite &nbsp; gsap &nbsp;
+        <br/>
+        <a style="color: black;"  href="">View Source</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <main class="site-content ">
+      
+    </main>
+    <footer style="text-align:center" id="masterFooter">
+  <div class="strike">
+    <span style="font-family: 'Patrick Hand SC', cursive; font-size:20px">
+      Say Hi !
+    </span>
+</div>
+  
+    <h4></h4>
+    <p></p>
+  
+    <h4></h4>
+    <p></p>
+  
+    <h4></h4>
+    <p></p>
+  
+
+  <li class="nav_li" style="display: inline-block;">
+    <a style="color: grey; display: block; padding: 10px 2.3vw " class="subtitle is-5" href="https://www.linkedin.com/in/anmolvijayvargiya/">
+      <span class="icon">
+        <i class="fa fa-linkedin"></i>
+      </span>
+    </a>
+  </li><li class="nav_li" style="display: inline-block;">
+    <a style="color: grey; display: block; padding: 10px 2.3vw " class="subtitle is-5" href="https://github.com/anmolvj">
+      <span class="icon">
+        <i class="fa fa-github"></i>
+      </span>
+    </a>
+  </li><li class="nav_li" style="display: inline-block;">
+    <a style="color: grey; display: block; padding: 10px 2.3vw " class="subtitle is-5" href="https://www.instagram.com/holy_anmol/">
+      <span class="icon">
+        <i class="fa fa-instagram"></i>
+      </span>
+    </a>
+  </li>
+</footer>
+
+
+
+    <script type="text/javascript">
+
+
+    $('.what1').addClass('active_what');
+    $('#spanit').text('Design Logo. Binge Watch Anime. Learn all thing javascript. Listen to audio books. Watch videos on Quantum Physics. Follow mens fashion trends.');
+
+      $('.what1').click(()=>{
+        $('#spanit').text('Design Logo. Binge Watch Anime. Learn all thing javascript. Listen to audio books. Watch videos on Quantum Physics. Follow mens fashion trends.');
+        $('.what2, .what3, .what4').removeClass('active_what');
+        $('.what1').addClass('active_what');
+      });
+
+      $('.what2').click(()=>{
+        $('#spanit').text('Not complete a movie when started. Carry a powerbank. Like tacobell.');
+        $('.what1, .what3, .what4').removeClass('active_what');
+        $('.what2').addClass('active_what');
+      });
+
+      $('.what3').click(()=>{
+        $('#spanit').text('A international Computer Science Graduate student in San Francisco Bay Area. ');
+        $('.what2, .what1, .what4').removeClass('active_what');
+        $('.what3').addClass('active_what');
+      });
+
+      $('.what4').click(()=>{
+        $('#spanit').text('A full time web developer job starting next summer. A Kawasaki Ninja 1000. Learn japanese to watch anime without subtitles.');
+        $('.what2, .what3, .what1').removeClass('active_what');
+        $('.what4').addClass('active_what');
+      });
+    </script>
+    <script type="text/javascript">
+
+    </script>
+  </body>
+</html>

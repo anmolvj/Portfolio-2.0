@@ -1,0 +1,19 @@
+<footer style="text-align:center" id="masterFooter">
+  <div class="strike">
+    <span style="font-family: 'Patrick Hand SC', cursive; font-size:20px">
+      Say Hi !
+    </span>
+</div>
+  {% for obj in site.data.masterFooter%}
+    <h4>{{obj.title}}</h4>
+    <p>{{obj.content}}</p>
+  {%endfor%}
+
+  {% for item in site.data.masterFooter%}<li class="nav_li" style="display: inline-block;">
+    <a style="color: grey; display: block; padding: 10px 2.3vw " class="subtitle is-5" href="{{item.href}}">
+      <span class="icon">
+        <i class="fa {{item.icon}}"></i>
+      </span>
+    </a>
+  </li>{% endfor %}
+</footer>

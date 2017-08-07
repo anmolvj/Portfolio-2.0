@@ -1,0 +1,11 @@
+- name: Linkedin
+  icon: fa-linkedin
+  href: "https://www.linkedin.com/in/anmolvijayvargiya/"
+
+- name: Github
+  icon: fa-github
+  href: "https://github.com/anmolvj"
+
+- name: Instagram
+  icon: fa-instagram
+  href: "https://www.instagram.com/holy_anmol/"
