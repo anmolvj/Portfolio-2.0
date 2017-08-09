@@ -1,16 +1,16 @@
 <br />
 <div>{% include summary.html %}</div>
-<div id="project_section" class="title">PROJECTS<br/></div>
+<div id="project_section" class="title">Projects<br/></div>
 <div id="project_container">
 {% for project in site.data.projects %}<div class="container">
     <a href="{% if project.link == null %} {% else %} {{project.link}} {% endif %}"><img src="{{project.image}}" alt="Avatar" class="image" ></a>
     <div class="overlay">
-      <div class="text">
+      <div class="text" style="font-weight:bold; color:black">
         <Strong style="font-size:20px; font-weight:bold">{{project.title}}</Strong>
         <br/>
         {% for item in project.technologies%} {{item}} &nbsp;{%endfor%}
         <br/>
-        <a style="color: black;"  href="{{project.github}}">View Source</a>
+        <a  class="button is-white is-small is-outlined"style="color: black;"  href="{{project.github}}">View Source</a>
       </div>
     </div>
 

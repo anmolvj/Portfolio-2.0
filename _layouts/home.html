@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"> -->
 <link rel="stylesheet" href="/css/bulma.css">
+
     <style media="screen">
     .site {
       display: flex;
@@ -49,28 +50,31 @@
         /*font-size: 20px;*/
 
       }
-      #developer:hover{
+      /*#developer:hover{
         color: #00e600;
-      }
+      }*/
       #dev_d{
-        color: #00e600;
+        color: #00e6b8;
       }
 
       /*#designer{color:#ff0066}*/
       #designer #de{color:#ff0066}
-      #designer:hover #es{color:}
-      #designer:hover #si{color:#cccc00}
-      #designer:hover #ig{color:}
-      #designer:hover #gn{color:#66b3ff}
-      #designer:hover #ne{color:}
-      #designer:hover #er{color:#00e6b8}
-      #designer:hover   #r{color:}
+      /*#designer:hover #es{color:}*/
+      /*#designer:hover #si{color:#cccc00}*/
+      /*#designer:hover #ig{color:}*/
+      #designer #gn{color:#66b3ff}
+      /*#designer:hover #ne{color:}*/
+      #designer #er{color:#00e6b8}
+      /*#designer:hover   #r{color:}*/
 
       .strike {
               display: block;
               text-align: center;
               overflow: hidden;
               white-space: nowrap;
+
+              font-size: 1.3vw;
+              /*color:#008CBA;*/
           }
 
           .strike > span {
@@ -102,19 +106,24 @@
 .hover_highlight:hover{
   opacity:1;
   cursor: pointer;
-  color: #008CBA;
+  color: #00e6b8;
 }
+
   #what_div1,#what_div2,#what_div3,#what_div4{
     transition: all 0.7s ease;
-    padding: 70px;
+    padding-top: 20px;
+    /*padding: 70px;*/
   }
+
 .large_font{
   font-size: 25px;
 }
 
 .active_what{
   opacity: 1;
-  color: #008CBA;
+  /*color: #008CBA;*/
+  /*color: #66b3ff;*/
+  color:#00e6b8;
 }
 
 what_div1_content{
@@ -138,6 +147,7 @@ what_div1_content{
   display: block;
    width: 100%;
    height: 300px;
+   filter: brightness(90%);
 
 }
 
@@ -147,17 +157,26 @@ what_div1_content{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  /*background-color: #008CBA;*/
+    /*background-color: #66b3ff;*/
+    background-color: #00e6b8;
   overflow: hidden;
   width: 100%;
   height: 0;
+  opacity: 0.94;
   transition: .5s ease;
 }
 
 .container:hover .overlay {
   height: 35%;
 }
+.container:hover .image{
+  filter: brightness(100%);
+}
 
+.container{
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+}
 
 .text {
   /*white-space: nowrap;*/
@@ -169,6 +188,7 @@ what_div1_content{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  font-family: 'Patrick Hand SC', cursive;
 }
 
 #masterFooter{
@@ -176,7 +196,12 @@ what_div1_content{
 }
 
 #project_section{
-
+  font-weight: bold;
+  margin-bottom: 100px;
+  letter-spacing: 2px;
+}
+#project_container{
+  margin-bottom: 200px;
 }
 
     </style>
@@ -202,29 +227,29 @@ what_div1_content{
     <script type="text/javascript">
 
 
-    $('.what1').addClass('active_what');
-    $('#spanit').text('Design Logo. Binge Watch Anime. Learn all thing javascript. Listen to audio books. Watch videos on Quantum Physics. Follow mens fashion trends.');
+    $('.what3').addClass('active_what');
+    $('#spanit').text('Web Developer. Gradate Student. Denim Lover. Dancer. Runner. Manga Fan. Swimmer');
 
       $('.what1').click(()=>{
-        $('#spanit').text('Design Logo. Binge Watch Anime. Learn all thing javascript. Listen to audio books. Watch videos on Quantum Physics. Follow mens fashion trends.');
+        $('#spanit').text('React. Express. Hapi. Jekyll. Mongo. AWS....and more');
         $('.what2, .what3, .what4').removeClass('active_what');
         $('.what1').addClass('active_what');
       });
 
       $('.what2').click(()=>{
-        $('#spanit').text('Not complete a movie when started. Carry a powerbank. Like tacobell.');
+        $('#spanit').text('Give up.');
         $('.what1, .what3, .what4').removeClass('active_what');
         $('.what2').addClass('active_what');
       });
 
       $('.what3').click(()=>{
-        $('#spanit').text('A international Computer Science Graduate student in San Francisco Bay Area. ');
+        $('#spanit').text('Web Developer. Gradate Student. Denim Lover. Dancer. Runner. Manga Fan. Swimmer');
         $('.what2, .what1, .what4').removeClass('active_what');
         $('.what3').addClass('active_what');
       });
 
       $('.what4').click(()=>{
-        $('#spanit').text('A full time web developer job starting next summer. A Kawasaki Ninja 1000. Learn japanese to watch anime without subtitles.');
+        $('#spanit').text('A full time web developer position.');
         $('.what2, .what3, .what1').removeClass('active_what');
         $('.what4').addClass('active_what');
       });
