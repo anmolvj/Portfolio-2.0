@@ -1,14 +1,14 @@
 <br />
 <div>{% include summary.html %}</div>
 
-<div class=".project" id="project_section">Projects<br/></div>
+<div>Projects<br/></div>
 
 <div>
 
   {% for project in site.data.projects %}<div class="container">
-    <a href="{% if project.link == null %} {% else %} {{project.link}} {% endif %}"><img src="{{project.image}}" alt="Avatar" class="image" ></a>
+    <a href="{% if project.link == null %} {% else %} {{project.link}} {% endif %}"><img src="{{project.image}}" alt="Avatar" class="projectImage" ></a>
     <div class="overlay">
-      <div class="text" style="font-weight:bold; color:black">
+      <div class="overlayText" style="font-weight:bold; color:black">
         <Strong style="font-size:20px; font-weight:bold">{{project.title}}</Strong>
         <br/>
         {% for item in project.technologies%} {{item}} &nbsp;{%endfor%}
