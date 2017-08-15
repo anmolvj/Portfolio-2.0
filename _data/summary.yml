@@ -1,1 +1,4 @@
-- <span class="hover_highlight what3" style="font-weight:bold">Who I am. </span> <span class="hover_highlight what1" style="font-weight:bold;">What I do. </span><span class="hover_highlight what2" style="font-weight:bold">What I don’t. </span>  <span class="hover_highlight what4" style="font-weight:bold">What I want. </span>
+- <span class="whatSpan what3">Who I am. </span>
+- <span class="whatSpan what1">What I do. </span>
+- <span class="whatSpan what2">What I don’t. </span>
+- <span class="whatSpan what4">What I want. </span>
