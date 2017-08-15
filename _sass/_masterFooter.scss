@@ -1,0 +1,23 @@
+.masterFooter{
+  .sayHi{
+    font-family: 'Patrick Hand SC', cursive; font-size:20px;
+    .footerHi{
+      color:#ff0066
+    }
+  }
+  .footerLi {
+    display: inline-block;
+    .fa{
+      transition: all 0.6s ease;
+    }
+  	&:hover {
+  		.fa {
+  			transform: scale(2);
+  		}
+  	}
+    .footerAnchor{
+      color: grey; display: block; padding: 10px 2.3vw;
+
+    }
+  }
+}
