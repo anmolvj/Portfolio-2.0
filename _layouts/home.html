@@ -8,70 +8,22 @@
     <link href="https://fonts.googleapis.com/css?family=Rajdhani:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-      crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"> -->
-
-
-    <style media="screen">
-    
-    </style>
+    <link rel="stylesheet" href="/css/main.css">
   </head>
 
 
-
-
-<link rel="stylesheet" href="/css/main.css">
-
-
   <body class="site">
-
-    {% include masterHeader.html %}
-
-    {% include projects.html %}
-    <main class="site-content ">
-      {{content}}
-    </main>
-    {% include masterFooter.html %}
-
-
-    <script type="text/javascript">
-
-
-    $('.what3').addClass('active_what');
-    $('#spanit').text('Web Developer. Gradate Student. Denim Lover. Dancer. Runner. Manga Fan. Swimmer');
-
-      $('.what1').click(()=>{
-        $('#spanit').text('React. Express. Hapi. Jekyll. Mongo. AWS....and more');
-        $('.what2, .what3, .what4').removeClass('active_what');
-        $('.what1').addClass('active_what');
-      });
-
-      $('.what2').click(()=>{
-        $('#spanit').text('Give up.');
-        $('.what1, .what3, .what4').removeClass('active_what');
-        $('.what2').addClass('active_what');
-      });
-
-      $('.what3').click(()=>{
-        $('#spanit').text('Web Developer. Gradate Student. Denim Lover. Dancer. Runner. Manga Fan. Swimmer');
-        $('.what2, .what1, .what4').removeClass('active_what');
-        $('.what3').addClass('active_what');
-      });
-
-      $('.what4').click(()=>{
-        $('#spanit').text('A full time web developer position.');
-        $('.what2, .what3, .what1').removeClass('active_what');
-        $('.what4').addClass('active_what');
-      });
-    </script>
-    <script type="text/javascript">
-
-    </script>
-  </body>
+      <!-- HEADER -->
+      {% include masterHeader.html %}
+      <!-- CONTENT FROM CHILD -->
+      <main class="site-content ">{{content}}</main>
+      <!-- FOOTER -->
+      {% include masterFooter.html %}
+      <!-- JQUERY -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+      <!-- WHAT SCRIPT -->
+      <script src="./js/what.js"></script>
+    </body>
 </html>
