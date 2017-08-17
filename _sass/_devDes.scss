@@ -1,15 +1,22 @@
-
-.developer{
-  font-family: 'VT323', monospace;
-  font-size: 20px;
-  #dev_d{
-    // color: #00e6b8;
-  };
-}
-.designer{
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 20px;
-  #de{color:#ff0066};
-  #gn{color:#66b3ff};
-  #er{color:#00e6b8};
+.devDes{
+  hr{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 130px;
+  }
+  .developer{
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    #dev_d{
+      // color: #00e6b8;
+    };
+  }
+  .designer{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20px;
+    #de{color: #ff0066};
+    #gn{color: #66b3ff};
+    #er{color: #00e6b8};
+  }
 }
