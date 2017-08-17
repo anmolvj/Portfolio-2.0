@@ -8,7 +8,7 @@
   technologies: [html, css, javascript, jquery, ruby]
   image: ./assets/newportfolio.gif
   link: #
-  github: #  
+  github: #
 
 - title: GSAP Animation
   technologies: [html, css, javascript, jquery, TweenLite, gsap]
@@ -19,5 +19,17 @@
 - title: Old Portfolio
   technologies: [html, css, ruby, jekyll]
   image: ./assets/oldportfolio.gif
+  link: #
+  github: #
+
+- title: React-Redux First App
+  technologies: [React, Redux, CSS, JSX]
+  image: ./assets/reactReduxApp.gif
+  link: #
+  github: #
+
+- title: React Native First App
+  technologies: [React Native, CSS, JSX]
+  image: ./assets/firstNativeApp.gif
   link: #
   github: #
