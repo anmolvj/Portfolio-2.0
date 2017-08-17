@@ -1,7 +1,7 @@
 <br />
 <div>{% include summary.html %}</div>
 
-<div>Projects<br/></div>
+<div id="projects">Projects<br/></div>
 
 <div>
 
@@ -9,7 +9,7 @@
     <a href="{% if project.link == null %} {% else %} {{project.link}} {% endif %}"><img src="{{project.image}}" alt="Avatar" class="projectImage" ></a>
     <div class="overlay">
       <div class="overlayText" style="font-weight:bold; color:black">
-        <Strong style="font-size:20px; font-weight:bold">{{project.title}}</Strong>
+        <div class="projectTitle">{{project.title}}</div>
         <br/>
         {% for item in project.technologies%} {{item}} &nbsp;{%endfor%}
         <br/>

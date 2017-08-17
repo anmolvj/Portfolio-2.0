@@ -1,12 +1,14 @@
 
-#developer{
-  transition: all 0.3s ease;
+.developer{
+  font-family: 'VT323', monospace;
+  font-size: 20px;
   #dev_d{
     // color: #00e6b8;
   };
 }
-#designer{
-  *{transition: all 0.3s ease;};
+.designer{
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 20px;
   #de{color:#ff0066};
   #gn{color:#66b3ff};
   #er{color:#00e6b8};
