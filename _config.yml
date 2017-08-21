@@ -30,6 +30,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
+baseurl: /portfolio2.0
 
 
 # Exclude from processing.
