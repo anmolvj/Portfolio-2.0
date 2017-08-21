@@ -22,16 +22,14 @@
   link: #
   github: #
 
-- title: React-Redux First App
+- title: React-Redux Wishlist
   technologies: [React, Redux, CSS, JSX]
   image: ./assets/reactReduxApp.gif
   link: #
   github: #
 
-- title: React Native First App
+- title: React Native Album 
   technologies: [React Native, CSS, JSX]
   image: ./assets/firstNativeApp.gif
   link: #
   github: #
-
-  
