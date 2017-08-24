@@ -4,32 +4,38 @@
   link: http://gauriprajapat.com/index.html
   github: https://github.com/anmolvj/Gauri-Prajapat-Portfolio
 
-- title: New Portfolio
+- title: My Portfolio 2.0
   technologies: [html, css, javascript, jquery, ruby]
   image: ./assets/newportfolio.gif
   link: #
   github: #
 
-- title: GSAP Animation
+- title: GSAP Experiment
   technologies: [html, css, javascript, jquery, TweenLite, gsap]
   image: ./assets/gsap.gif
   link: #
   github: #
 
-- title: Old Portfolio
-  technologies: [html, css, ruby, jekyll]
-  image: ./assets/oldportfolio.gif
+- title: Responsive Landing Page
+  technologies: [html, css, media queries]
+  image: ./assets/landingPage.gif
+  link: #
+  github: https://github.com/anmolvj/webofthings.us
+
+- title: Taylor Swift Album
+  technologies: [React Native, CSS, JSX]
+  image: ./assets/firstNativeApp.gif
   link: #
   github: #
 
-- title: React-Redux Wishlist
+- title: Wishlist
   technologies: [React, Redux, CSS, JSX]
   image: ./assets/reactReduxApp.gif
   link: #
   github: #
 
-- title: React-Native Album 
-  technologies: [React Native, CSS, JSX]
-  image: ./assets/firstNativeApp.gif
+- title: My Portfolio 1.0
+  technologies: [html, css, ruby, jekyll]
+  image: ./assets/oldportfolio.gif
   link: #
-  github: #
+  github: https://github.com/anmolvj/anmolvj

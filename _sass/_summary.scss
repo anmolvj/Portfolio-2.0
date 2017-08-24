@@ -1,29 +1,16 @@
-.whatDiv{
-  font-size: 30px;
-  font-weight: lighter;
-}
-.whatSpan{
-  transition: all 0.3s ease;
-  padding: 7px;
-  font-weight: bold;
+.whatDiv{ font-size: 30px; font-weight: lighter;  }
+.whatSpan{ transition: all 0.3s ease; padding: 7px; font-weight: bold;
   // color: #00e6b8;
-  &:hover{
-    opacity:1;
-    cursor: pointer;
-    color: #66b3ff;
-  }
-}
+  &:hover{ opacity:1; cursor: pointer; color: #66b3ff; }}
 
 $subtractVh: 75vh;
-.whatTextContainer{
-  margin:auto;
-  max-width:400px;
-  min-height: calc(100vh - #{$subtractVh});
-}
+.whatTextContainer{ margin:auto; max-width:400px;
+  min-height: calc(100vh - #{$subtractVh});}
+
+.activeWhat{ opacity: 1; color: #66b3ff;}
 
 
-.activeWhat{
-opacity: 1;
-color: #66b3ff;
-
+.whatText{
+  font-size: 20px;
+  color: #b3b3b3;
 }

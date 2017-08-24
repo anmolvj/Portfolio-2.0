@@ -2,6 +2,16 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 ---
 
+body{
+  color:  #4d4d4d;
+  font-family: 'Dosis', sans-serif;
+  line-height: normal;
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
 h1 , h4{
   margin: 0;
 }

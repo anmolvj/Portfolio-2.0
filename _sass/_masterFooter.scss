@@ -1,14 +1,22 @@
 .masterFooter{
   .sayHi{
-    font-family: 'Patrick Hand SC', cursive ; font-size:20px;
+    font-family: 'Patrick Hand SC', cursive;
+      font-size:20px;
     .footerHi{
-      color:#ff0066
+      // color:#ff1a1a;
+      // color:#ff0066;
+      // color: #66b3ff;
+      // color: #ff4d4d;
+      color: #b3b3b3;
     }
   }
   .footerLi {
     display: inline-block;
     .fa{
+      color: #ff4d4d;
+      color: #66b3ff;
       transition: all 0.6s ease;
+      transform: scale(1.3);
     }
   	&:hover {
   		.fa {
@@ -17,22 +25,23 @@
   	}
     .footerAnchor{
       color: grey; display: block; padding: 10px 2.3vw;
-
     }
+  }
+  .footerMail {
+    font-size: 16px;
   }
   .resumeButton{
     background-color: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.37);
+    border: 1px solid grey;
     border-radius: 3px 3px 3px 3px;
     box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.698) inset, 0 1px 0 0 rgba(0, 0, 0, 0.075);
     color: #595959;
     cursor: pointer;
     display: inline-block;
-    font-family: inherit;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     line-height: 20px;
-    margin: 0 0 10px 0;
+    margin: 5px 0 10px 0;
     padding: 8px 16px;
     position: relative;
     text-align: center;
@@ -42,7 +51,7 @@
     vertical-align: middle;
 }
 .resumeButton:hover {
-    background-color: #F6F6F6;
+    // background-color: #F6F6F6;
     outline: medium none;
 }
 .resumeButton:focus{
