@@ -35,7 +35,7 @@
   github: #
 
 - title: My Portfolio 1.0
-  technologies: [[jekyll, github-pages, jquery ]
+  technologies: [jekyll, github-pages, jquery ]
   image: ./assets/oldportfolio.gif
   link: #
   github: https://github.com/anmolvj/anmolvj
