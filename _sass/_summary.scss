@@ -17,23 +17,23 @@ $subtractVh: 75vh;
   color: #b3b3b3;
 }
 
-@media screen and (max-width: 736px){
-  .whatLinkContainer {
-    width: 320px;
-    margin: auto;
-  }
-  .whatDiv{
-    font-size: 27px;
-  }
-}
-
-
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
-  .whatLinkContainer {
-    width: 320px;
-    margin: auto;
-  }
-  .whatDiv{
-    font-size: 27px;
-  }
- }
+// @media screen and (max-width: 736px){
+//   .whatLinkContainer {
+//     width: 320px;
+//     margin: auto;
+//   }
+//   .whatDiv{
+//     font-size: 27px;
+//   }
+// }
+//
+//
+// @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+//   .whatLinkContainer {
+//     width: 320px;
+//     margin: auto;
+//   }
+//   .whatDiv{
+//     font-size: 27px;
+//   }
+//  }
