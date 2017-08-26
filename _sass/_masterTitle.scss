@@ -2,3 +2,10 @@
 .name{
   font-size: 45px; font-weight:bold;
 }
+
+@media screen and (max-width: 1000px){
+  .name{
+    width: 80vw;
+    margin: auto;
+  }
+}
