@@ -17,6 +17,17 @@ $subtractVh: 75vh;
   color: #b3b3b3;
 }
 
+@media screen and (max-width: 600px){
+  .whatLinkContainer {
+    width: 200px;
+    margin: auto;
+  }
+  .whatDiv{
+
+  }
+}
+
+
 // @media screen and (max-width: 736px){
 //   .whatLinkContainer {
 //     width: 320px;
