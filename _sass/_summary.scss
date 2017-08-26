@@ -14,3 +14,25 @@ $subtractVh: 75vh;
   font-size: 20px;
   color: #b3b3b3;
 }
+
+
+
+@media screen and (max-width: 600px){
+  .whatLinkContainer {
+    width: 300px;
+    margin: auto;
+  }
+  .whatDiv{
+    font-size: 27px;
+  }
+}
+
+// @media screen and (max-width: 400px){
+//   .whatDiv{
+//     font-size: 27px;
+//   }
+//   .whatLinkContainer {
+//     width: 310px;
+//     margin: auto;
+//   }
+// }
