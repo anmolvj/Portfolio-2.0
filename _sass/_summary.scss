@@ -2,7 +2,9 @@
 .whatSpan{ transition: all 0.3s ease; padding: 7px; font-weight: bold;
   // color: #00e6b8;
   &:hover{ opacity:1; cursor: pointer; color: #66b3ff; }}
-
+.whatLinkContainer{
+  padding-bottom: 10px;
+}
 $subtractVh: 75vh;
 .whatTextContainer{ margin:auto; max-width:400px;
   min-height: calc(100vh - #{$subtractVh});}
@@ -17,22 +19,13 @@ $subtractVh: 75vh;
 
 
 
+
 @media screen and (max-width: 736px){
   .whatLinkContainer {
-    width: 300px;
+    width: 320px;
     margin: auto;
   }
   .whatDiv{
     font-size: 27px;
   }
 }
-
-// @media screen and (max-width: 400px){
-//   .whatDiv{
-//     font-size: 27px;
-//   }
-//   .whatLinkContainer {
-//     width: 310px;
-//     margin: auto;
-//   }
-// }
