@@ -1,41 +1,41 @@
 - title: Gauri's Portfolio
   technologies: [ jekyll, github-pages, jquery ]
-  image: ./assets/gauriportfolio.gif
+  image: ./assets/gauriportfolio-min.gif
   link: http://gauriprajapat.com/index.html
   github: https://github.com/anmolvj/Gauri-Prajapat-Portfolio
 
 - title: My Portfolio 2.0
   technologies: [ jekyll, github-pages, jquery ]
-  image: ./assets/newportfolio.gif
+  image: ./assets/newportfolio-min.gif
   link: #
   github: #
 
 - title: GSAP Experiment
   technologies: [ js ,tweenLite, gsap]
-  image: ./assets/gsap.gif
+  image: ./assets/gsap-min.gif
   link: #
   github: #
 
 - title: Landing Page
   technologies: [html, css, media queries]
-  image: ./assets/landingpage.gif
+  image: ./assets/landingpage-min.gif
   link: #
   github: https://github.com/anmolvj/webofthings.us
 
 - title: Album App
   technologies: [react-native, jsx, css]
-  image: ./assets/firstNativeApp.gif
+  image: ./assets/firstNativeApp-min.gif
   link: #
   github: #
 
 - title: Wishlist
   technologies: [react, redux, jsx, css]
-  image: ./assets/reactReduxApp.gif
+  image: ./assets/reactReduxApp-min.gif
   link: #
   github: #
 
 - title: My Portfolio 1.0
   technologies: [jekyll, github-pages, jquery ]
-  image: ./assets/oldportfolio.gif
+  image: ./assets/oldportfolio-min.gif
   link: #
   github: https://github.com/anmolvj/anmolvj
