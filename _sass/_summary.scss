@@ -1,5 +1,5 @@
 .whatDiv{ font-size: 30px; font-weight: lighter;  }
-.whatSpan{ transition: all 0.3s ease; margin: 7px; font-weight: bold;
+.whatSpan{ transition: all 0.3s ease; margin: 7px; font-weight: bold; border-bottom: 1px solid lightgrey;
   // color: #00e6b8;
   &:hover{ opacity:1; cursor: pointer; color: #66b3ff; }}
 .whatLinkContainer{
@@ -9,7 +9,7 @@ $subtractVh: 75vh;
 .whatTextContainer{ margin:auto; max-width:400px;
   min-height: calc(100vh - #{$subtractVh});}
 
-.activeWhat{ opacity: 1; color: #66b3ff;}
+.activeWhat{ opacity: 1; color: #66b3ff; border-bottom: 1px solid #66b3ff;}
 
 
 .whatText{
