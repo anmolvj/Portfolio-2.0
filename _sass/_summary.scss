@@ -27,8 +27,11 @@ $subtractVh: 75vh;
     line-height: 170%;
   }
   .whatSpan{
-    border: 1px solid lightgrey;
-    border-radius: 7px;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
+  }
+  .activeWhat{
+    border-bottom-color: #66b3ff;
   }
 }
 
