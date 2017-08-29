@@ -2,6 +2,10 @@
   icon: fa-linkedin
   href: "https://www.linkedin.com/in/anmolvijayvargiya/"
 
+- name: Linkedin
+  icon: fa-rss
+  href: "http://blog.anmolvj.com/"
+
 - name: Github
   icon: fa-github
   href: "https://github.com/anmolvj"
@@ -10,6 +14,6 @@
   icon: fa-instagram
   href: "https://www.instagram.com/holy_anmol/"
 
-- name: Facebook
-  icon: fa-facebook
-  href: "https://www.facebook.com/AnmolVijayargiya"
+- name: Resume
+  icon: fa-file-text
+  href: ""
