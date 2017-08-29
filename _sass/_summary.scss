@@ -9,7 +9,7 @@ $subtractVh: 75vh;
 .whatTextContainer{ margin:auto; max-width:400px;
   min-height: calc(100vh - #{$subtractVh});}
 
-.activeWhat{ opacity: 1;  border-bottom: 1px solid ; color: #555}
+.activeWhat{ opacity: 1;  border-bottom: 1px solid #555; color: #555}
 
 
 .whatText{
