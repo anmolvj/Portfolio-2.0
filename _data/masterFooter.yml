@@ -1,10 +1,10 @@
+- name: Blog
+  icon: fa-rss
+  href: "http://blog.anmolvj.com/"
+
 - name: Linkedin
   icon: fa-linkedin
   href: "https://www.linkedin.com/in/anmolvijayvargiya/"
-
-- name: Linkedin
-  icon: fa-rss
-  href: "http://blog.anmolvj.com/"
 
 - name: Github
   icon: fa-github
