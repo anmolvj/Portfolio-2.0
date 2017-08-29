@@ -1,7 +1,7 @@
-.whatDiv{ font-size: 30px; font-weight: lighter;  }
-.whatSpan{ transition: all 0.3s ease; margin: 7px; font-weight: bold; border-bottom: 1px solid lightgrey;
+.whatDiv{ font-size: 30px; font-weight: lighter; color: #b3b3b3  }
+.whatSpan{ transition: all 0.3s ease; margin: 7px; font-weight: bold; 
   // color: #00e6b8;
-  &:hover{ opacity:1; cursor: pointer; color: #66b3ff; }}
+  &:hover{ opacity:1; cursor: pointer;  }}
 .whatLinkContainer{
   padding-bottom: 10px;
 }
@@ -9,12 +9,12 @@ $subtractVh: 75vh;
 .whatTextContainer{ margin:auto; max-width:400px;
   min-height: calc(100vh - #{$subtractVh});}
 
-.activeWhat{ opacity: 1; color: #66b3ff; border-bottom: 1px solid #66b3ff;}
+.activeWhat{ opacity: 1;  border-bottom: 1px solid ; color: #555}
 
 
 .whatText{
   font-size: 20px;
-  color: #b3b3b3;
+  color: #737373;
 }
 
 @media screen and (max-width: 600px){
