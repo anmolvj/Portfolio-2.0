@@ -13,11 +13,11 @@
       transition: all 0.6s ease;
       transform: scale(1.3);
     }
-  	&:hover {
-  		.fa {
-  			transform: scale(2);
-  		}
-  	}
+  	// &:hover {
+  	// 	.fa {
+  	// 		transform: scale(2);
+  	// 	}
+  	// }
     .footerAnchor{
       color: grey; display: block; padding: 10px 2.3vw;
     }
@@ -66,4 +66,15 @@
     outline: medium none;
     transition: none 0s ease 0s;
 }
+}
+
+
+@media screen and (max-width: 600px){
+  .masterFooter{
+    .footerLi {
+      .footerAnchor{
+        padding: 10px 5vw;
+    	}
+    }
+  }
 }
